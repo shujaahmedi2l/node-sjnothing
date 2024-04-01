@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-githubaction-test-js"
+  description: 
+  annotations:
+    github.com/project-slug: shujaahmedi2l/nodejs-githubaction-test-js
+    argocd/app-name: nodejs-githubaction-test-js
+  links:
+    - url: https://nodejs-githubaction-test-js.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
